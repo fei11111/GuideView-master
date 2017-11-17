@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="GuideView">
+        <attr name="targetStyle" format="enum">
+            <enum name="rect" value="0"></enum>
+            <enum name="circle" value="1"></enum>
+            <enum name="oval" value="2"></enum>
+        </attr>
+        <attr name="maskStyle" format="enum">
+            <enum name="normal" value="0"></enum>
+            <enum name="solid" value="1"></enum>
+        </attr>
+        <attr name="maskColor" format="reference|color"></attr>
+        <attr name="tipView" format="reference"></attr>
+        <attr name="indicator_arrow_up_left" format="reference" />
+        <attr name="indicator_arrow_up_right" format="reference" />
+        <attr name="indicator_arrow_up_center" format="reference" />
+        <attr name="indicator_arrow_down_left" format="reference" />
+        <attr name="indicator_arrow_down_right" format="reference" />
+        <attr name="indicator_arrow_down_center" format="reference" />
+    </declare-styleable>
+
+</resources>
